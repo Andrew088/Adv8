@@ -14,3 +14,7 @@ class TestBasics(unittest.TestCase):
 	def test_toomany(self):
 		with self.assertRaises(ValueError):
 			result = rpn.calculate('1 2 3 +')
+
+	def test_carat(self):
+		with self.assertRaises('5 ^')
+		self.assertEqual(25,result)
