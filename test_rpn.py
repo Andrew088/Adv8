@@ -16,5 +16,5 @@ class TestBasics(unittest.TestCase):
 			result = rpn.calculate('1 2 3 +')
 
 	def test_carat(self):
-		with self.assertRaises('5 ^')
-		self.assertEqual(25,result)
+		result = rpn.calculate('5 5 ^')
+		self.assertEqual(3125,result)
