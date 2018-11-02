@@ -2,7 +2,7 @@ language: python
 python:
   - "3.5"
 install:
-  - pip install -e /home/wangandr/eecs398/HW8/c4cs-f18-rpn
+  - pip install -e .
 before_script:
   -pip install -r test_requirements.txt --use-mirrors
   - git clone https://github.com/z4r/python-coveralls-example.git
