@@ -6,10 +6,12 @@ install:
   - pip install -U pip
   - pip install --upgrade setuptools
   - pip install -e .
+  - pip install coveralls
 before_script:
   - pip install -r test_requirements.txt
 script: 
   - python3 -m unittest
   - py.test coveralls/test_rpn.py --doctest-modules coveralls -v --cov coveralls --cov-report term-missing
+  - coverage run --source=mypkg setup.py test
 after_success:
   - coveralls
