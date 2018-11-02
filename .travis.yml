@@ -2,7 +2,7 @@ language: python
 python:
   - "3.5"
 install:
-  - pip install -e . --user-mirrors
+  - pip install -e .
 before_script:
   - git clone https://github.com/z4r/python-coveralls-example.git
   - cd python-coveralls-example
