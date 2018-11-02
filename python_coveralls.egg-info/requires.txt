@@ -1,4 +1,4 @@
 PyYAML
-requests
 coverage==4.0.3
+requests
 six
