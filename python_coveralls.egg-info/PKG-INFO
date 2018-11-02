@@ -1,7 +1,7 @@
 Metadata-Version: 1.2
 Name: python-coveralls
 Version: 2.9.1
-Summary: 
+Summary: [![Build Status](https://travis-ci.org/Andyroo8/c4cs-f18-rpn.svg?branch=master)](https://travis-ci.org/Andyroo8/c4cs-f18-rpn)
 
 Home-page: http://github.com/z4r/python-coveralls
 Author: Andrea De Marco
@@ -10,6 +10,7 @@ Maintainer: Andrea De Marco
 Maintainer-email: 24erre@gmail.com
 License: Apache License 2.0
 Description: # c4cs-f18-rpn
+        [![Build Status](https://travis-ci.org/Andyroo8/c4cs-f18-rpn.svg?branch=master)](https://travis-ci.org/Andyroo8/c4cs-f18-rpn)
         
         Advanced Homework 8:
         
