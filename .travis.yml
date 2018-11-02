@@ -1,7 +1,9 @@
 language: python
 python:
   - "3.5"
+  - "3.5-dev"
 install:
+  - pip install -U pip
   - pip install --upgrade setuptools
   - pip install -e .
 before_script:
