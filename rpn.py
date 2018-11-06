@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import readline
+import colorama
+from colorama import Fore
 
 def calculate(arg):
 	stack = []
@@ -31,7 +33,12 @@ def main():
 	while True:
 		try:
 			result = calculate(input('rpn calc> '))
-			print(result)
+			if result > 0:
+				print(Fore.GREEN + result)
+			elif result < 0:
+				print(Fore.RED + result)
+			else:
+				print(Fore.BLUE + result)
 		except ValueError:
 			pass
 
